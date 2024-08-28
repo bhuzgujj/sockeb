@@ -1,0 +1,29 @@
+{
+  "name": "sockeb",
+  "version": "1.0.0",
+  "description": "Websocket helper",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "watch-test": "node --test --watch",
+    "serve": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuzgujj/sockeb.git"
+  },
+  "keywords": [
+    "Websocket",
+    "client",
+    "server"
+  ],
+  "author": "Émile Boucher",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bhuzgujj/sockeb/issues"
+  },
+  "homepage": "https://github.com/bhuzgujj/sockeb#readme",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
